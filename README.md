@@ -1,5 +1,5 @@
 # SPA-CRUD
-A single page application that Create/Read/Update/Delete customer data. Client side project uses [CoreUI](https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template) admin template.
+A single page application that Create/Read/Update/Delete customer data. Client-side project uses [CoreUI](https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template) admin template.
 
 ## [Visit Demo](https://spa-crud.herokuapp.com/)
 
@@ -19,7 +19,7 @@ Migration script inserts demo data in database for test usage. In order to reset
 
 ## Deploy on Heroku
 
-Root folder package.json is configured for Heroku deployment. To deploy on Heroku, execute below commands :
+Root folder package.json is configured for Heroku deployment. To deploy on Heroku, execute these commands:
 
 - `heroku login`
 - `heroku git:clone -a ##Your Heroku Project Name##`
@@ -27,7 +27,7 @@ Root folder package.json is configured for Heroku deployment. To deploy on Herok
 
 ## Overview of libraries
 
- - `sqlite` - sqlite chosen as data source because it is fast, easy and suitable to deploy on Heroku.
+ - `sqlite` - sqlite was chosen as data source because it is fast, easy and suitable to deploy on Heroku.
 
  - `express` - rest api implemented using Express Nodejs framework
 
