@@ -4,9 +4,6 @@ import {Badge, Nav, NavItem, NavLink as RsNavLink} from 'reactstrap';
 import isExternal from 'is-url-external';
 import classNames from 'classnames';
 import nav from './_nav';
-import SidebarFooter from './SidebarFooter';
-import SidebarForm from './SidebarForm';
-import SidebarHeader from './SidebarHeader';
 import SidebarMinimizer from './SidebarMinimizer';
 
 class Sidebar extends Component {
@@ -99,14 +96,11 @@ class Sidebar extends Component {
     // sidebar-nav root
     return (
       <div className="sidebar">
-        <SidebarHeader/>
-        <SidebarForm/>
         <nav className="sidebar-nav">
           <Nav>
             {navList(nav.items)}
           </Nav>
         </nav>
-        <SidebarFooter/>
         <SidebarMinimizer/>
       </div>
     )
