@@ -35,7 +35,7 @@ const CustomerList = ({ match, customers, pageIndex, totalCount, onPageClick, on
                         </tbody>
                     </table>
                     <div className="row">
-                        <div className="col-lg-9">
+                        <div className="col-md-9 col-sm-9">
                             <nav>
                                 {(totalCount > pageSize) &&
                                     <Paging
@@ -48,7 +48,7 @@ const CustomerList = ({ match, customers, pageIndex, totalCount, onPageClick, on
                                 }
                             </nav>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-md-3 col-sm-3">
                             <Link to={`/add-edit-customer`} className="btn btn-primary">Create New</Link>
                         </div>
                     </div>

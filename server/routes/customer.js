@@ -45,7 +45,7 @@ router.post('/', async (req, res, next) => {
 router.put('/:id', async (req, res, next) => {
     try {
         const customerRequest = req.body;
-        const result = await database.run('UPDATE TOP(1) CUSTOMER SET firstName = ?, lastName = ?, birthday = ?, gender = ?, lastContact = ?,customerLifetimeValue = ? where id = ?',
+        const result = await database.run('UPDATE CUSTOMER SET firstName = ?, lastName = ?, birthday = ?, gender = ?, lastContact = ?,customerLifetimeValue = ? where id = ?',
             customerRequest.firstName, customerRequest.lastName, customerRequest.birthday, customerRequest.gender, customerRequest.lastContact, customerRequest.customerLifetimeValue, req.params.id);
         res.send({
             changes: result.stmt.changes
@@ -57,7 +57,7 @@ router.put('/:id', async (req, res, next) => {
 
 router.delete('/:id', async (req, res, next) => {
     try {
-        const result = await database.run('DELETE TOP(1) FROM CUSTOMER WHERE id = ?', req.params.id);
+        const result = await database.run('DELETE FROM CUSTOMER WHERE id = ?', req.params.id);
         res.send({
             lastID: result.stmt.lastID,
             changes: result.stmt.changes

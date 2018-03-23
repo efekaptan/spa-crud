@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "SPA CRUD",
+  "name": "Single Page Application - Create/Read/Update/Delete",
   "icons": [
     {
       "src": "favicon.ico",

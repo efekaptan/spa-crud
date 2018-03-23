@@ -4,7 +4,9 @@ import { connect } from 'react-redux';
 import CustomerAddEdit from '../components/customer/CustomerAddEdit';
 import { addCustomer, getCustomer, editCustomer } from '../actions/customer';
 import { toastr } from 'react-redux-toastr';
-import { withRouter } from 'react-router'
+import { withRouter } from 'react-router';
+import { ruleRunner, run } from '../utils/validation/';
+import { required } from '../utils/validation/rules';
 
 class CustomerAddEditContainer extends React.Component {
     constructor(props, context) {
@@ -12,8 +14,12 @@ class CustomerAddEditContainer extends React.Component {
 
         this.state = {
             id: '',
-            title: '',
-            description: ''
+            firstName: '',
+            lastName: '',
+            birthday: new Date(),
+            gender: '',
+            lastContact: new Date(),
+            customerLifetimeValue: ''
         }
     }
 
@@ -49,18 +55,26 @@ class CustomerAddEditContainer extends React.Component {
 
     onSubmit = async () => {
         let result;
+
+        const validationErrors = run(this.state, fieldValidations);
+
+        if (Object.keys(validationErrors).length > 0) {
+            toastr.error('Error', validationErrors[Object.keys(validationErrors)[0]]);
+            return;
+        }
+
         if (this.state.id) {
             result = await this.props.editCustomer(this.state);
-            if (result.response.changes > 0) {
-                toastr.success('Success', 'Customer edited');
+            if (result && result.response.changes > 0) {
+                toastr.success('Success', 'Customer edited successfully');
                 this.context.router.history.push(`/customers`);
             }
         }
         else {
             result = await this.props.addCustomer(this.state);
 
-            if (result.response.lastId > 0) {
-                toastr.success('Success', 'Customer added');
+            if (result && result.response.lastId > 0) {
+                toastr.success('Success', 'Customer added successfully');
                 this.context.router.history.push(`/customers`);
             }
         }
@@ -81,6 +95,11 @@ class CustomerAddEditContainer extends React.Component {
         )
     }
 }
+
+const fieldValidations = [
+    ruleRunner("firstName", "First name", required),
+    ruleRunner("lastName", "Last name", required)
+];
 
 const mapStateToProps = state => {
     return {

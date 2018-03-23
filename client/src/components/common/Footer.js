@@ -4,8 +4,7 @@ class Footer extends Component {
   render() {
     return (
       <footer className="app-footer">
-        <a href="http://">Creative Admin</a> &copy; 2017.
-        <span className="float-right">Powered by <a href="http://">Creative Admin</a></span>
+        <span className="float-right">Powered by <a href="/">SPA CRUD</a></span>
       </footer>
     )
   }

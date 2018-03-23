@@ -6,7 +6,6 @@ import Sidebar from './Sidebar';
 import Breadcrumb from './Breadcrumb';
 import Aside from './Aside';
 import Footer from './Footer';
-import Dashboard from '../Dashboard';
 import CustomerListContainer from '../../containers/CustomerListContainer';
 import CustomerAddEditContainer from '../../containers/CustomerAddEditContainer';
 
@@ -19,12 +18,11 @@ const Layout = ({ props }) => (
         <Breadcrumb />
         <Container fluid>
           <Switch>
-            <Route path="/dashboard" name="Dashboard" component={Dashboard} />
             <Route path="/customers/:page" name="Customers" component={CustomerListContainer} />
             <Route path="/customers" name="Customers" component={CustomerListContainer} />
             <Route path="/add-edit-customer/:id" name="Add/Edit Customer" component={CustomerAddEditContainer} />
             <Route path="/add-edit-customer" name="Add/Edit Customer" component={CustomerAddEditContainer} />
-            <Redirect from="/" to="/dashboard" />
+            <Redirect from="/" to="/customers" />
           </Switch>
         </Container>
       </main>
