@@ -3,7 +3,7 @@ export const pageSize = 10;
 let apiUrl;
 
 if (process.env.NODE_ENV === 'production') {
-    apiUrl = 'http://creative.reactjs.world/api';
+    apiUrl = 'https://spa-crud.herokuapp.com/api';
 } else {
     apiUrl = 'http://localhost:5000/api';
 }
