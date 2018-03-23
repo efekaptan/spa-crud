@@ -4,7 +4,9 @@
   "description": "A single page application that Create/Read/Update/Delete customers data.",
   "main": "index.js",
   "scripts": {
-    "postinstall": "cd client && npm run build",
+    "client-npm": "cd client && npm install",
+    "server-npm": "cd server && npm install",
+    "postinstall": "client-npm && server-npm && cd client && npm run build",
     "server": "cd server && npm run start",
     "client": "cd client && npm run start",
     "start-dev": "npm-run-all -p server client",
