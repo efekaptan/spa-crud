@@ -1,0 +1,387 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Customer List Snapshot Capturing Snapshot of Customer List Snapshot 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-lg-6"
+  >
+    <div
+      className="card"
+    >
+      <div
+        className="card-header"
+      >
+        <i
+          className="fa fa-align-justify"
+        />
+         
+        <strong>
+          Customers
+        </strong>
+         List
+      </div>
+      <div
+        className="card-block"
+      >
+        <table
+          className="table table-bordered table-striped"
+        >
+          <thead>
+            <tr>
+              <th>
+                Id
+              </th>
+              <th>
+                First Name
+              </th>
+              <th>
+                Last Name
+              </th>
+              <th>
+                Actions
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                15
+              </td>
+              <td>
+                Eliseo
+              </td>
+              <td>
+                Goldfarb
+              </td>
+              <td
+                className="buttons"
+              >
+                <a
+                  className="btn btn-warning btn-sm"
+                  href={undefined}
+                  onClick={[Function]}
+                >
+                  Edit
+                </a>
+                <button
+                  className="btn btn-danger btn-sm"
+                  onClick={[Function]}
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                14
+              </td>
+              <td>
+                Iva
+              </td>
+              <td>
+                Buenrostro
+              </td>
+              <td
+                className="buttons"
+              >
+                <a
+                  className="btn btn-warning btn-sm"
+                  href={undefined}
+                  onClick={[Function]}
+                >
+                  Edit
+                </a>
+                <button
+                  className="btn btn-danger btn-sm"
+                  onClick={[Function]}
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                13
+              </td>
+              <td>
+                Fredrick
+              </td>
+              <td>
+                Bellah
+              </td>
+              <td
+                className="buttons"
+              >
+                <a
+                  className="btn btn-warning btn-sm"
+                  href={undefined}
+                  onClick={[Function]}
+                >
+                  Edit
+                </a>
+                <button
+                  className="btn btn-danger btn-sm"
+                  onClick={[Function]}
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                12
+              </td>
+              <td>
+                Willena
+              </td>
+              <td>
+                Condrey
+              </td>
+              <td
+                className="buttons"
+              >
+                <a
+                  className="btn btn-warning btn-sm"
+                  href={undefined}
+                  onClick={[Function]}
+                >
+                  Edit
+                </a>
+                <button
+                  className="btn btn-danger btn-sm"
+                  onClick={[Function]}
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                11
+              </td>
+              <td>
+                Alexis
+              </td>
+              <td>
+                Kuss
+              </td>
+              <td
+                className="buttons"
+              >
+                <a
+                  className="btn btn-warning btn-sm"
+                  href={undefined}
+                  onClick={[Function]}
+                >
+                  Edit
+                </a>
+                <button
+                  className="btn btn-danger btn-sm"
+                  onClick={[Function]}
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                10
+              </td>
+              <td>
+                Broderick
+              </td>
+              <td>
+                Longnecker
+              </td>
+              <td
+                className="buttons"
+              >
+                <a
+                  className="btn btn-warning btn-sm"
+                  href={undefined}
+                  onClick={[Function]}
+                >
+                  Edit
+                </a>
+                <button
+                  className="btn btn-danger btn-sm"
+                  onClick={[Function]}
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                9
+              </td>
+              <td>
+                Chanda
+              </td>
+              <td>
+                Copenhaver
+              </td>
+              <td
+                className="buttons"
+              >
+                <a
+                  className="btn btn-warning btn-sm"
+                  href={undefined}
+                  onClick={[Function]}
+                >
+                  Edit
+                </a>
+                <button
+                  className="btn btn-danger btn-sm"
+                  onClick={[Function]}
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                8
+              </td>
+              <td>
+                Nicky
+              </td>
+              <td>
+                Slay
+              </td>
+              <td
+                className="buttons"
+              >
+                <a
+                  className="btn btn-warning btn-sm"
+                  href={undefined}
+                  onClick={[Function]}
+                >
+                  Edit
+                </a>
+                <button
+                  className="btn btn-danger btn-sm"
+                  onClick={[Function]}
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                7
+              </td>
+              <td>
+                Karoline
+              </td>
+              <td>
+                Aultman
+              </td>
+              <td
+                className="buttons"
+              >
+                <a
+                  className="btn btn-warning btn-sm"
+                  href={undefined}
+                  onClick={[Function]}
+                >
+                  Edit
+                </a>
+                <button
+                  className="btn btn-danger btn-sm"
+                  onClick={[Function]}
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                6
+              </td>
+              <td>
+                Clayton
+              </td>
+              <td>
+                Desousa
+              </td>
+              <td
+                className="buttons"
+              >
+                <a
+                  className="btn btn-warning btn-sm"
+                  href={undefined}
+                  onClick={[Function]}
+                >
+                  Edit
+                </a>
+                <button
+                  className="btn btn-danger btn-sm"
+                  onClick={[Function]}
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-9 col-sm-9"
+          >
+            <nav>
+              <ul
+                className="pagination"
+              >
+                <li
+                  className="page-item active"
+                >
+                  <a
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "cursor": "pointer",
+                      }
+                    }
+                  >
+                    1
+                  </a>
+                </li>
+                <li
+                  className="page-itemnull"
+                >
+                  <a
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "cursor": "pointer",
+                      }
+                    }
+                  >
+                    2
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div
+            className="col-md-3 col-sm-3"
+          >
+            <a
+              className="btn btn-primary"
+              href={undefined}
+              onClick={[Function]}
+            >
+              Create New
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

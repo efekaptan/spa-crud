@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Customer Add/Edit Snapshot Capturing Snapshot of Customer Add/Edit Snapshot 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-lg-6"
+  >
+    <div
+      className="card"
+    >
+      <form
+        className="form-horizontal"
+      >
+        <div
+          className="card-header"
+        >
+          <strong>
+            Edit
+             Customer
+          </strong>
+        </div>
+        <div
+          className="card-body card-block"
+        >
+          <div
+            className="row form-group"
+          >
+            <div
+              className="col col-md-3"
+            >
+              <label
+                className="form-control-label"
+                htmlFor="firstName"
+              >
+                First Name
+              </label>
+            </div>
+            <div
+              className="col-12 col-md-9"
+            >
+              <input
+                className="form-control"
+                id="firstName"
+                name="firstName"
+                onChange={[Function]}
+                placeholder="Enter First Name..."
+                type="text"
+                value="Eliseo"
+              />
+            </div>
+          </div>
+          <div
+            className="row form-group"
+          >
+            <div
+              className="col col-md-3"
+            >
+              <label
+                className="form-control-label"
+                htmlFor="lastName"
+              >
+                Last Name
+              </label>
+            </div>
+            <div
+              className="col-12 col-md-9"
+            >
+              <input
+                className="form-control"
+                id="lastName"
+                name="lastName"
+                onChange={[Function]}
+                placeholder="Enter Last Name..."
+                type="text"
+                value="Goldfarb"
+              />
+            </div>
+          </div>
+          <div
+            className="row form-group"
+          >
+            <div
+              className="col col-md-3"
+            >
+              <label
+                className="form-control-label"
+                htmlFor="birthday"
+              >
+                Birthday
+              </label>
+            </div>
+            <div
+              className="col-12 col-md-9"
+            >
+              <input
+                className="form-control"
+                onBlur={undefined}
+                onClick={[Function]}
+                onContextMenu={undefined}
+                onFocus={undefined}
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                onMouseEnter={undefined}
+                onMouseLeave={undefined}
+                onTouchStart={[Function]}
+                readOnly={true}
+                value="20-Nov-1969"
+              />
+            </div>
+          </div>
+          <div
+            className="row form-group"
+          >
+            <div
+              className="col col-md-3"
+            >
+              <label
+                className="form-control-label"
+                htmlFor="gender"
+              >
+                Gender
+              </label>
+            </div>
+            <div
+              className="col-12 col-md-9"
+            >
+              <div
+                className="radio-inline"
+              >
+                <input
+                  checked={true}
+                  className="radio-input"
+                  id="inlineRadio1"
+                  name="gender"
+                  onChange={[Function]}
+                  type="radio"
+                  value="m"
+                />
+                <label
+                  className="radio-label"
+                  htmlFor="inlineRadio1"
+                >
+                  Male
+                </label>
+              </div>
+              <div
+                className="radio-inline"
+              >
+                <input
+                  checked={false}
+                  className="radio-input"
+                  id="inlineRadio2"
+                  name="gender"
+                  onChange={[Function]}
+                  type="radio"
+                  value="w"
+                />
+                <label
+                  className="radio-label"
+                  htmlFor="inlineRadio2"
+                >
+                  Female
+                </label>
+              </div>
+            </div>
+          </div>
+          <div
+            className="row form-group"
+          >
+            <div
+              className="col col-md-3"
+            >
+              <label
+                className="form-control-label"
+                htmlFor="lastContact"
+              >
+                Last Contact
+              </label>
+            </div>
+            <div
+              className="col-12 col-md-9"
+            >
+              <input
+                className="form-control"
+                onBlur={undefined}
+                onClick={[Function]}
+                onContextMenu={undefined}
+                onFocus={undefined}
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                onMouseEnter={undefined}
+                onMouseLeave={undefined}
+                onTouchStart={[Function]}
+                readOnly={true}
+                value="18-Mar-2017"
+              />
+            </div>
+          </div>
+          <div
+            className="row form-group"
+          >
+            <div
+              className="col col-md-3"
+            >
+              <label
+                className="form-control-label"
+                htmlFor="customerLifetimeValue"
+              >
+                Lifetime
+              </label>
+            </div>
+            <div
+              className="col-12 col-md-9"
+            >
+              <input
+                className="form-control"
+                id="customerLifetimeValue"
+                name="customerLifetimeValue"
+                onChange={[Function]}
+                placeholder="Enter Customer Lifetime Value..."
+                type="text"
+                value={1019.91}
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="card-footer buttons"
+        >
+          <button
+            className="btn btn-primary btn-sm"
+            onClick={undefined}
+            type="button"
+          >
+            <i
+              className="fa fa-dot-circle-o"
+            />
+             
+            Save Changes
+          </button>
+          <button
+            className="btn btn-sm"
+            onClick={undefined}
+            type="button"
+          >
+            Go Back
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;
