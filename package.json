@@ -4,9 +4,11 @@
   "description": "A single page application that Create/Read/Update/Delete customers data.",
   "main": "index.js",
   "scripts": {
+    "postinstall": "cd client && npm run build",
     "server": "cd server && npm run start",
     "client": "cd client && npm run start",
-    "start": "npm-run-all -p server client"
+    "start-dev": "npm-run-all -p server client",
+    "start": "npm run server"
   },
   "repository": {
     "type": "git",

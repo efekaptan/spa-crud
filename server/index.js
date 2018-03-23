@@ -4,6 +4,7 @@ const db = require('sqlite');
 const Promise = require('bluebird');
 const cors = require('cors');
 const routes = require('./routes');
+const path = require('path');
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -13,6 +14,11 @@ app.use(cors());
 const router = express.Router();
 router.use('/api', routes);
 app.use(router);
+
+app.use(express.static(path.join(__dirname, '/../client/build')));
+app.get('/*', function (req, res) {
+    res.sendFile(path.join(__dirname, '/../client/build', 'index.html'));
+});
 
 const port = process.env.PORT || 5000;
 
